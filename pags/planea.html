@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TU VIAJE</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="bodyf">
+<!-------------HEADER---------- -->
+<header class="headerForm">
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">   
+      <a id="titulo1" href="../index.html"> <img src="../img/logo.png" alt="logo" width="350" height="80"></a>
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+              <a class="elelist" href="destinos.html">DESTINOS</a>
+              </li>
+              <li class="nav-item">
+              <a class="elelist" href="nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+              <a class="elelist" href="formulario.html">INICIAR SESIÓN</a>
+              </li>
+              <li class="nav-item">
+              <a class="elelistSub" href="planea.html">PLANEA TU VIAJE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+<!-------------HEADER FIN---------- -->
+<!-------------SECTION---------- -->
+<section>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 lg-12 xl-12 text-center mb-2">
+      <h1 id="titForm" class="Mayus">PLANEA TU VIAJE</h1>
+    </div>
+  </div>
+</div>
+<!-------------FOMULARIO---------- -->
+    <div class="formularioForma container-fluid d-flex justify-content-center col-md-6 lg-6 xl-6">
+      <form>
+        <div class="form-row">
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <label class="Sub2" for="nombre">Nombres</label>
+                  <input type="text" id="nombre" class="form-control">
+              </div>
+            </div>
+          <div class="col">
+            <div class="form-group Sub2">
+              <label for="inputPassword">Contraseña</label>
+                <input type="password" class="form-control Sub2" id="inputPassword" placeholder="Password">
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="form-group">
+            <label class="Sub2" for="email">Correo electrónico</label>
+              <input type="text" id="email" class="form-control">
+            </div>
+            <div class="form-group mt-2">
+                <label class="Sub2" for="provincia">Dirección de vivienda</label>
+                <input type="text" id="provincia" class="form-control">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6 mt-2">
+                    <label class="Sub2" for="aerolineas">Aerolíneas para viajar</label>
+                    <select id="aerolineas" class="form-control Sub2">
+                        <option selected>JetSMART Airlines</option>
+                        <option>Avianca</option>
+                        <option>Gol Transportes Aéreos</option>
+                        <option>Flybondi (Beneficios)</option>
+                        <option>Iberia</option>
+                        <option>Aerolíneas Argentinas (Beneficios)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6 mt-2">
+                    <label class="Sub2" for="destino">Destino</label>
+                    <select id="destino" class="form-control Sub2">
+                        <option selected>Buenos Aires</option>
+                        <option>Córdoba</option>
+                        <option>Salta</option>
+                        <option>Tierra del Fuego</option>
+                        <option>Mendoza (Aún sin nuestros beneficios)</option>
+                        <option>Chubut (Aún sin nuestros beneficios)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="form-outline">
+                          <label class="Sub2 mt-2" for="tarjeta">Número de tarjeta</label>
+                            <input type="number" id="tarjeta" class="form-control">
+                        </div>
+                    </div>
+                  <div class="col">
+                      <div class="Sub2 form-group mt-2">
+                          <label for="codigo">Código de seguridad</label>
+                            <input type="password" maxlength="3" class="form-control len" id="codigo" placeholder="Al reverso de la tarjeta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+              <img src="../img/pagos.jpg" alt="Métodos de pago">
+            </div>
+            <div class="form-group form-check d-flex justify-content-center mb-2 mt-2">
+                <div class="form-check">
+                  <input type="checkbox" id="gridCheck">
+                  <label class="form-check-label Mayus3" for="gridCheck">Enviar factura al correo electrónico.</label>
+               </div>
+              </div>
+              <div class="d-flex justify-content-center">
+            <button type="submit" id="bottVi" class="Sub">Pagar</button>
+          </div>
+        </form>
+<!-------------FOMULARIO FIN---------- -->
+    </div>
+</section> 
+<!-------------SECTION FIN---------- --> 
+<!-------------FOOTER---------- -->
+<footer>
+  <div class="container my-5">
+      <div class="container">
+        <section class="mt-5">
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <div class="col-md-2">             
+                <a href="../index.html" class="Mayus2 FootText">INICIO</a>             
+            </div>
+            <div class="col-md-2">             
+                <a href="destinos.html" class="Mayus2 FootText">DESTINOS</a>             
+            </div>
+            <div class="col-md-2">             
+                <a href="nosotros.html" class="Mayus2 FootText">NOSOTROS</a>              
+            </div>
+            <div class="col-md-2">              
+                <a href="formulario.html" class="Mayus2 FootText">INICIAR SESIÓN</a>             
+            </div>
+            <div class="col-md-2">              
+                <a href="planea.html" class="Mayus2 FootSelect">PLANEA TU VIAJE</a>
+            </div>
+          </div>
+        </section>  
+        <hr class="my-5">
+          <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p id="FootText2" class="Sub">
+                TRAVEL2ARG SE ENCARGARÁ DE HACERTE VIVIR LA EXPERIENCIA DE VIAJES MÁS MEMORABLE, APROVECHA NUESTROS PLANES Y CONSULTA POR NUESTRA DISPONIBILIDAD
+              </p>
+            </div>
+          </div>
+        </section>  
+      </div>
+  </div>  
+</footer>
+<!-------------FOOTER FIN  ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

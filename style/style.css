@@ -1,0 +1,398 @@
+/*----------GLOBAL Y TAMAÑOS DE LETRA----------*/
+header{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.elelist{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 11px;
+    border-radius: 25px;
+    transition: all 1250ms cubic-bezier(0.20, 2, 0.25, 2);
+}
+.elelistSub{
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    color: aliceblue;
+    text-decoration: overline;
+    padding: 11px;
+    border-radius: 25px;
+}
+.elelistSub:hover {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff54; 
+}
+.elelist:hover {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5); 
+    background-color: #ffffff54;
+    padding: 10px;
+    
+}
+.Mayus{    /*600*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.Mayus2{    /*500*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.Mayus3{  /*700*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.Sub{   /*400*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Sub2{  /*300*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+/*----------   GLOBAL Y TAMAÑOS DE LETRA FINAL  ----------*/
+/*--------------------------------------------------------*/
+/* ---------INDEX-----------          */
+#titulo1{
+    border-radius: 25px;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+#titulo1:hover {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5); /* Cambia el color al pasar el cursor sobre elbotón */
+    background-color: #ffffff54;
+    padding: 9px;
+}
+#mainIni{
+    background-color: gray;
+    height: 100vh;
+    overflow: hidden;
+}
+#par{
+    font-size: 3.5em;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#botonIni{  
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: white;
+    padding: 14px 55px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #9273c7; 
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+#botonIni:hover {
+    box-shadow: 8px 8px 20px rgb(236, 223, 223); /* Aumenta el desplazamiento y la opacidad de la sombra */
+    background-color: #d1badd;
+    color: black;
+    padding: 18px 60px;
+  }
+/* ---------INDEX FIN-----------*/
+/*-------------------------------*/
+/*---------------DESTINOS-------------*/
+#mainDes{
+    height: 540px;
+    overflow: hidden;
+    border-bottom-right-radius: 105px;
+    border-bottom-left-radius: 105px;
+}
+#par2{
+    font-size: 4.5rem;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(59, 57, 57, 0.664);
+    border-radius: 25px;
+}
+#sec1{
+    overflow: hidden;
+}
+#par3{
+    font-size: 3.7rem;
+    color: rgb(38, 28, 28);
+    text-transform: uppercase;
+    border-radius: 11px;
+    margin-top: 75px;
+    margin-bottom: 45px;
+}
+.cartas{
+    margin-bottom: 95px;
+    width: 600px;
+    height: 600px;
+    border-radius: 17px;
+    box-shadow: 8px 8px 20px rgb(0, 0, 0);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.parImg{
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    opacity: 0.75;
+}
+.parTit{
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.parText{
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.parImg:hover{
+    opacity: 1;
+}
+.cartas:hover {
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.515); 
+    background-color: #281d32;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: 630px;
+  }
+/*---------FOOTER--------*/
+footer{
+    border-top-right-radius: 70px;
+    border-top-left-radius: 50px;
+    margin-top: 0%;
+    background-color: black;
+    width: 1000;
+    height: 400px;
+    overflow: hidden;
+    color: azure;
+} 
+.FootText{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 11px;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    text-align: center;
+}
+.FootText:hover {
+    padding: 15px;
+    box-shadow: 7px 7px 7px rgba(211, 211, 211, 0.594); 
+    background-color: #532f90;
+}
+.FootSelect{
+    text-decoration: overline;
+    color: white;
+    padding: 10px;
+    border-radius: 11px;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.FootSelect:hover {
+    padding: 15px;
+    box-shadow: 7px 7px 7px rgba(211, 211, 211, 0.594);
+    background-color: #532f90;
+}
+
+#FootText2{
+    padding-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/*---------FOOTER FIN--------*/ 
+/*-------------NOSOTROS-----------------*/
+.headerNos{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #1a161c;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+#TitNos{
+    margin-top: 250px;
+    color: #2d2820;
+}
+.botonNosO{
+    margin-top: 50px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.45;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.botonNosO:hover{
+    opacity: 1;
+    box-shadow: 7px 7px 7px 7px rgba(84, 81, 81, 0.594);
+}
+#TitAer{
+    font-size: 2.335em;
+    margin-top: 150px;
+    color: #2d2820;
+}
+.cartNos{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 35px;
+    box-shadow: 7px 7px 7px 7px rgba(84, 81, 81, 0.594);
+}
+.textSubNos{
+    text-align: left;
+    padding-top: 20px;
+}
+.imgVuelo{
+    margin-top: 15px;
+    border-radius: 9px;
+    box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.224); 
+    width: 100%;
+    height: 100%;
+}
+.parCar{
+    text-align: left;
+}
+.separarimg{
+    margin-right: 8px;
+}
+.listNos{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 5px;
+    list-style: none;
+    
+}
+.imgCards{
+    border-radius: 90px;
+}
+.TeamCard{
+    width: 300px;
+    height: 450px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    margin-right: 25px;
+    border-radius: 90px;
+    box-shadow: 4px 4px 7px 4px rgba(148, 148, 148, 0.808);
+}
+.TeamCardText{
+    padding-top: 30px;
+    text-align: center;
+}
+.TeamSubText{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+#TitEqu{
+    margin-top: 100px;
+    color: #2d2820;
+    font-size: 2.335em;
+}
+#TitSede{
+    margin-top: 100px;
+    color: #2d2820;
+    font-size: 2.335em;
+}
+/*-------------NOSOTROS fin--------------*/
+
+/*---------  FORMULARIO ------------------- */
+.headerForm{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #1a161c;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+#titForm{
+    color: black;
+    margin-top: 230px;
+}
+#FormularioForma{
+    margin-top: 25px;
+    margin-bottom: 80px;
+    box-shadow: 4px 4px 7px 4px rgba(148, 148, 148, 0.808);
+    border-radius: 5px;
+}
+.paddigForm{
+    padding: 25px;
+}
+
+#bottForm{
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #541eb0; 
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 4px 4px 7px 4px rgba(148, 148, 148, 0.808);
+}
+#bottForm:hover {
+    box-shadow: 8px 8px 20px rgb(236, 223, 223); 
+    background-color: #a600ff;
+    box-shadow: 4px 4px 7px 4px rgba(34, 34, 34, 0.438);
+/*---------------  FORMULARIO fin ---------------------- */
+  }
+  /*PLANEA TU VIAJE*/
+  .headerPlan{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #1a161c;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.formularioForma{
+    margin-bottom: 80px;
+    box-shadow: 4px 4px 7px 4px rgba(148, 148, 148, 0.808);
+    border-radius: 5px;
+    padding: 30px;
+}
+#bottVi{
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #541eb0; 
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 4px 4px 7px 4px rgba(148, 148, 148, 0.808);
+}
+#bottVi:hover {
+    box-shadow: 8px 8px 20px rgb(236, 223, 223); /* Aumenta el desplazamiento y la opacidad de la sombra */
+    background-color: #a600ff;
+    padding: 13px 28px;
+    box-shadow: 4px 4px 7px 4px rgba(34, 34, 34, 0.438);}
